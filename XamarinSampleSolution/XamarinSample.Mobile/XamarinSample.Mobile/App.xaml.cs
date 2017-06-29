@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 
 namespace XamarinSample.Mobile
 {
@@ -13,7 +16,7 @@ namespace XamarinSample.Mobile
         {
             InitializeComponent();
 
-            MainPage = new XamarinSample.Mobile.MainPage();
+            MainPage = new Pages.LoginPage();
         }
 
         protected override void OnStart()
