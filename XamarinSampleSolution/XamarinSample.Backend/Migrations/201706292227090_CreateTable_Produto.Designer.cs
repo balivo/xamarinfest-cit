@@ -13,7 +13,7 @@ namespace XamarinSample.Backend.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201706290206108_CreateTable_Produto"; }
+            get { return "201706292227090_CreateTable_Produto"; }
         }
         
         string IMigrationMetadata.Source

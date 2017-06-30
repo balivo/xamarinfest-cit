@@ -232,13 +232,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201706290144263_CreateIdentitySchema.cs" />
-    <Compile Include="Migrations\201706290144263_CreateIdentitySchema.Designer.cs">
-      <DependentUpon>201706290144263_CreateIdentitySchema.cs</DependentUpon>
+    <Compile Include="Migrations\201706292224598_CreateIdentitySchema.cs" />
+    <Compile Include="Migrations\201706292224598_CreateIdentitySchema.Designer.cs">
+      <DependentUpon>201706292224598_CreateIdentitySchema.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201706290206108_CreateTable_Produto.cs" />
-    <Compile Include="Migrations\201706290206108_CreateTable_Produto.Designer.cs">
-      <DependentUpon>201706290206108_CreateTable_Produto.cs</DependentUpon>
+    <Compile Include="Migrations\201706292227090_CreateTable_Produto.cs" />
+    <Compile Include="Migrations\201706292227090_CreateTable_Produto.Designer.cs">
+      <DependentUpon>201706292227090_CreateTable_Produto.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -335,11 +335,11 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706290144263_CreateIdentitySchema.resx">
-      <DependentUpon>201706290144263_CreateIdentitySchema.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706292224598_CreateIdentitySchema.resx">
+      <DependentUpon>201706292224598_CreateIdentitySchema.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706290206108_CreateTable_Produto.resx">
-      <DependentUpon>201706290206108_CreateTable_Produto.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706292227090_CreateTable_Produto.resx">
+      <DependentUpon>201706292227090_CreateTable_Produto.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

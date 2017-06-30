@@ -1,17 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+using System.Data.Entity;
 using System.Threading.Tasks;
 using System.Web.Http;
 using XamarinSample.Backend.Models;
 
 namespace XamarinSample.Backend.Controllers.API
 {
+    [Authorize]
     [RoutePrefix("api/produtos")]
     public class ProdutosController : ApiController
     {
+        [HttpGet]
+        [Route("")]
+        public Task<List<Produto>> Get()
+        {
+            return ApplicationDbContext.Create().Produtos.ToListAsync();
+        }
+
         [HttpPost]
         [Route("")]
         public async Task Save([FromBody]Produto model)
